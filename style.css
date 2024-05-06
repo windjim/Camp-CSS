@@ -1,0 +1,56 @@
+/* 字體 */
+.noto-sans-tc {
+  font-family: "Noto Sans TC", sans-serif;
+  font-style: normal;
+}
+/* 大小 */
+.fz-28 {
+  font-size: 28px;
+}
+/* 寬度 */
+.card-body-w {
+  width: 323px;
+}
+/* 行高 */
+.lh-12 {
+  line-height: 1.2em;
+}
+.lh-15 {
+  line-height: 1.5em;
+}
+/* 顏色 */
+.primary-color {
+  color: #3b3b3b;
+}
+.secondary-color {
+  color: #919191;
+}
+/* 超連結設定 */
+a {
+  text-decoration: none;
+}
+/* 圓角 */
+.img-radius {
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+}
+.a-label {
+  padding: 4px 12px;
+  border-radius: 16px;
+}
+.a-label-color {
+  background-color: #f1f1f1;
+  transition: 0.3s ease-out;
+}
+.a-label-color:hover {
+  background-color: #fbff22;
+}
+
+@media screen and (max-width: 768px) {
+  .fz-28 {
+    font-size: 20px;
+  }
+  .card-body-w {
+    width: 307px;
+  }
+}
